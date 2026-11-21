@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="1440" height="900" fill="#1a202c" />
+<defs>
+<marker id="bus-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#60a5fa" /></marker>
+<marker id="bus-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#60a5fa" /></marker>
+<marker id="ctrl-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#eab364" /></marker>
+<marker id="ctrl-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#eab364" /></marker>
+<marker id="irq-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#4cc7a2" /></marker>
+<marker id="irq-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#4cc7a2" /></marker>
+<marker id="pin-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#94a3b8" /></marker>
+<marker id="pin-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#94a3b8" /></marker>
+<marker id="off-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#64748b" /></marker>
+<marker id="off-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#64748b" /></marker>
+</defs>
+<text x="40" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="25" fill="#e6eaf2" font-weight="700" text-anchor="start">JPEG Decoder</text>
+<text x="40" y="60" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="#a1adbf" font-weight="500" text-anchor="start">jpeg_core · 32-bit JPEG Stream → 24-bit RGB888</text>
+<rect x="904.0" y="26" width="15" height="15" rx="3" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.6" />
+<text x="925.0" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Core / Compute</text>
+<rect x="1054.4" y="26" width="15" height="15" rx="3" fill="#182f3f" stroke="#45a4d6" stroke-width="1.6" />
+<text x="1075.4" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Bus / Mux</text>
+<rect x="1166.8000000000002" y="26" width="15" height="15" rx="3" fill="#172e28" stroke="#3ea88b" stroke-width="1.6" />
+<text x="1187.8000000000002" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Memory</text>
+<rect x="1256.4" y="26" width="15" height="15" rx="3" fill="#2d2417" stroke="#cfa04e" stroke-width="1.6" />
+<text x="1277.4" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Control / Config</text>
+<g transform="translate(17.68, 74.98) scale(1.0179)">
+<rect x="130" y="95" width="1115" height="608" rx="10" fill="#131823" stroke="#4a5975" stroke-width="2" />
+<g><rect x="148" y="83" width="98" height="22" rx="4" fill="#252a48" stroke="#4f5c8f" stroke-width="1.2" /><text x="197.0" y="98.2" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#f1f5f9" font-weight="700" text-anchor="middle">jpeg_core</text></g>
+<g><rect x="18" y="336" width="102" height="34" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="69.0" y="357.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">JPEG[31:0]</text></g>
+<g><rect x="1258" y="326" width="104" height="34" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="1310.0" y="347.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">RGB888+X/Y</text></g>
+<g>
+<rect x="160" y="302" width="134" height="102" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+<text x="227.0" y="350.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="16" fill="#e6eaf2" font-weight="700" text-anchor="middle">Input Parser</text>
+<text x="227.0" y="369.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#a5c0f7" font-weight="700" text-anchor="middle">Markers · Stream</text>
+</g>
+<g>
+<rect x="332" y="302" width="138" height="102" rx="5" fill="#172e28" stroke="#3ea88b" stroke-width="1.7" />
+<text x="401.0" y="350.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="16" fill="#e3f7f1" font-weight="700" text-anchor="middle">Bitbuffer</text>
+<text x="401.0" y="369.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8ce0c6" font-weight="700" text-anchor="middle">FIFO · Window</text>
+</g>
+<g>
+<rect x="508" y="302" width="146" height="102" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+<text x="581.0" y="350.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="16" fill="#e6eaf2" font-weight="700" text-anchor="middle">MCU Proc</text>
+<text x="581.0" y="369.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#a5c0f7" font-weight="700" text-anchor="middle">Entropy FSM</text>
+</g>
+<g>
+<rect x="692" y="302" width="130" height="102" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+<text x="757.0" y="350.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="16" fill="#e6eaf2" font-weight="700" text-anchor="middle">Dequant</text>
+<text x="757.0" y="369.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#a5c0f7" font-weight="700" text-anchor="middle">Zigzag · DQT</text>
+</g>
+<g>
+<rect x="508" y="492" width="146" height="86" rx="5" fill="#172e28" stroke="#3ea88b" stroke-width="1.7" />
+<text x="581.0" y="532.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e3f7f1" font-weight="700" text-anchor="middle">Huffman ROM</text>
+<text x="581.0" y="551.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8ce0c6" font-weight="700" text-anchor="middle">Fixed Tables</text>
+</g>
+<polyline points="120,353 160,353" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#pin-start)" marker-end="url(#pin-end)" />
+<polyline points="294,353 332,353" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#bus-start)" marker-end="url(#bus-end)" />
+<polyline points="470,353 508,353" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#bus-start)" marker-end="url(#bus-end)" />
+<polyline points="654,353 692,353" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#bus-start)" marker-end="url(#bus-end)" />
+<polyline points="581,404 581,492" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#bus-start)" marker-end="url(#bus-end)" />
+<rect x="584.2" y="436" width="55.599999999999994" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="612" y="448" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#60a5fa" font-weight="700" text-anchor="middle">lookup</text>
+<polyline points="227,302 227,152 1208,152 1208,274" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="540.2" y="136" width="169.6" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="625" y="148" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">metadata &amp; DQT config</text>
+<polyline points="757,152 757,302" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<circle cx="757" cy="152" r="3.5" fill="#eab364" />
+<rect x="862" y="184" width="200" height="496" rx="8" fill="#1b2232" stroke="#44536e" stroke-width="1.5" />
+<g><rect x="876" y="173" width="88" height="22" rx="4" fill="#21648c" /><text x="920.0" y="188.2" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#f1f5f9" font-weight="700" text-anchor="middle">jpeg_idct</text></g>
+<g>
+<rect x="878" y="208" width="142" height="60" rx="5" fill="#172e28" stroke="#3ea88b" stroke-width="1.7" />
+<text x="949.0" y="235.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e3f7f1" font-weight="700" text-anchor="middle">Input RAM</text>
+<text x="949.0" y="254.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8ce0c6" font-weight="700" text-anchor="middle">4 banks</text>
+</g>
+<g>
+<rect x="878" y="292" width="142" height="60" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+<text x="949.0" y="319.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e6eaf2" font-weight="700" text-anchor="middle">IDCT-X</text>
+<text x="949.0" y="338.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#a5c0f7" font-weight="700" text-anchor="middle">row pass</text>
+</g>
+<g>
+<rect x="878" y="376" width="142" height="60" rx="5" fill="#172e28" stroke="#3ea88b" stroke-width="1.7" />
+<text x="949.0" y="403.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e3f7f1" font-weight="700" text-anchor="middle">Transpose</text>
+<text x="949.0" y="422.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8ce0c6" font-weight="700" text-anchor="middle">RAM</text>
+</g>
+<g>
+<rect x="878" y="460" width="142" height="60" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+<text x="949.0" y="487.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e6eaf2" font-weight="700" text-anchor="middle">IDCT-Y</text>
+<text x="949.0" y="506.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#a5c0f7" font-weight="700" text-anchor="middle">col pass</text>
+</g>
+<g>
+<rect x="878" y="544" width="142" height="52" rx="5" fill="#172e28" stroke="#3ea88b" stroke-width="1.7" />
+<text x="949.0" y="567.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e3f7f1" font-weight="700" text-anchor="middle">ID FIFO</text>
+<text x="949.0" y="586.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8ce0c6" font-weight="700" text-anchor="middle">block align</text>
+</g>
+<g>
+<rect x="878" y="618" width="142" height="46" rx="5" fill="#182f3f" stroke="#45a4d6" stroke-width="1.7" />
+<text x="949.0" y="646.04" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e4f2fb" font-weight="700" text-anchor="middle">Output Align</text>
+</g>
+<polyline points="949.0,268 949.0,292" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<polyline points="949.0,352 949.0,376" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<polyline points="949.0,436 949.0,460" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<polyline points="1020,490 1046,490 1046,630 1020,630" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<polyline points="949.0,596 949.0,618" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<polyline points="822,332 842,332 842,238 878,238" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#bus-start)" marker-end="url(#bus-end)" />
+<rect x="818.0" y="206" width="48.0" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="842" y="218" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#60a5fa" font-weight="700" text-anchor="middle">coeff</text>
+<polyline points="757,404 757,570 878,570" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="769.6" y="548" width="70.8" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="805" y="560" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">block ID</text>
+<rect x="1094" y="244" width="132" height="436" rx="8" fill="#1b2232" stroke="#44536e" stroke-width="1.5" />
+<g><rect x="1102" y="233" width="92" height="22" rx="4" fill="#2c4c87" /><text x="1148.0" y="248.2" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#f1f5f9" font-weight="700" text-anchor="middle">jpeg_output</text></g>
+<g>
+<rect x="1106" y="274" width="108" height="138" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+<text x="1160.0" y="340.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e6eaf2" font-weight="700" text-anchor="middle">RGB888</text>
+<text x="1160.0" y="359.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#a5c0f7" font-weight="700" text-anchor="middle">YCbCr Conv</text>
+</g>
+<g>
+<rect x="1106" y="504" width="108" height="152" rx="5" fill="#172e28" stroke="#3ea88b" stroke-width="1.7" />
+<text x="1160.0" y="577.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e3f7f1" font-weight="700" text-anchor="middle">Y/Cb/Cr</text>
+<text x="1160.0" y="596.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8ce0c6" font-weight="700" text-anchor="middle">3× RAM+FIFO</text>
+</g>
+<polyline points="1020,652 1106,652" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#bus-start)" marker-end="url(#bus-end)" />
+<polyline points="1160,504 1160,412" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<rect x="1136.0" y="448" width="48.0" height="16" rx="3" fill="#1b2232" fill-opacity="0.94" />
+<text x="1160" y="460" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#60a5fa" font-weight="700" text-anchor="middle">YCbCr</text>
+<polyline points="1214,343 1258,343" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#pin-start)" marker-end="url(#pin-end)" />
+</g>
+</svg>

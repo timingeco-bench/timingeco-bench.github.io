@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="1440" height="900" fill="#1a202c" />
+<defs>
+<marker id="bus-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#60a5fa" /></marker>
+<marker id="bus-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#60a5fa" /></marker>
+<marker id="ctrl-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#eab364" /></marker>
+<marker id="ctrl-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#eab364" /></marker>
+<marker id="irq-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#4cc7a2" /></marker>
+<marker id="irq-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#4cc7a2" /></marker>
+<marker id="pin-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#94a3b8" /></marker>
+<marker id="pin-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#94a3b8" /></marker>
+<marker id="off-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#64748b" /></marker>
+<marker id="off-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#64748b" /></marker>
+</defs>
+<text x="40" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="25" fill="#e6eaf2" font-weight="700" text-anchor="start">Programmable AND–OR Logic</text>
+<text x="40" y="60" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="#a1adbf" font-weight="500" text-anchor="start">PAL · 8 Inputs · 26 Product Terms · 7 Outputs · 598-bit Config</text>
+<rect x="866.0" y="26" width="15" height="15" rx="3" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.6" />
+<text x="887.0" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Core / Compute</text>
+<rect x="1016.4" y="26" width="15" height="15" rx="3" fill="#182f3f" stroke="#45a4d6" stroke-width="1.6" />
+<text x="1037.4" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Bus / Mux</text>
+<rect x="1128.8" y="26" width="15" height="15" rx="3" fill="#2d2417" stroke="#cfa04e" stroke-width="1.6" />
+<text x="1149.8" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Control / Config</text>
+<rect x="1294.3999999999999" y="26" width="15" height="15" rx="3" fill="#272038" stroke="#9478c9" stroke-width="1.6" />
+<text x="1315.3999999999999" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Peripherals</text>
+<g transform="translate(13.22, 54.04) scale(1.0356)">
+<rect x="170" y="95" width="1030" height="635" rx="10" fill="#131823" stroke="#4a5975" stroke-width="2" />
+<g><rect x="190" y="83" width="86" height="22" rx="4" fill="#252a48" stroke="#4f5c8f" stroke-width="1.2" /><text x="233.0" y="98.2" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#f1f5f9" font-weight="700" text-anchor="middle">pal_top</text></g>
+<g><rect x="22" y="188" width="120" height="36" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="82.0" y="210.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">cfg / clk / rst</text></g>
+<g><rect x="22" y="238" width="120" height="34" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="82.0" y="259.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">apply_en</text></g>
+<g><rect x="22" y="518" width="120" height="36" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="82.0" y="540.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">ui_in[7:0]</text></g>
+<g><rect x="1225" y="518" width="118" height="36" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="1284.0" y="540.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">uo_out[7:0]</text></g>
+<g>
+<rect x="465" y="175" width="465" height="108" rx="5" fill="#2d2417" stroke="#cfa04e" stroke-width="1.7" />
+<text x="697.5" y="226.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="17" fill="#faecd2" font-weight="700" text-anchor="middle">Serial Config Shift Register</text>
+<text x="697.5" y="245.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#ebca8a" font-weight="700" text-anchor="middle">598-bit · sr</text>
+</g>
+<g>
+<rect x="205" y="462" width="165" height="148" rx="5" fill="#272038" stroke="#9478c9" stroke-width="1.7" />
+<text x="287.5" y="533.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="16" fill="#eee8fa" font-weight="700" text-anchor="middle">Input Bank</text>
+<text x="287.5" y="552.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#c6b3eb" font-weight="700" text-anchor="middle">16 literals</text>
+</g>
+<g>
+<rect x="445" y="412" width="235" height="248" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+</g>
+<text x="562" y="446" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="17" fill="#e6eaf2" font-weight="700" text-anchor="middle">AND Plane</text>
+<text x="562" y="468" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#a5c0f7" font-weight="700" text-anchor="middle">16 × 26 (416 bits)</text>
+<rect x="482" y="490" width="160" height="140" rx="4" fill="#162036" stroke="#3b5485" stroke-width="1.2" />
+<line x1="514" y1="490" x2="514" y2="630" stroke="#273859" stroke-width="1" />
+<line x1="546" y1="490" x2="546" y2="630" stroke="#273859" stroke-width="1" />
+<line x1="578" y1="490" x2="578" y2="630" stroke="#273859" stroke-width="1" />
+<line x1="610" y1="490" x2="610" y2="630" stroke="#273859" stroke-width="1" />
+<line x1="482" y1="525" x2="642" y2="525" stroke="#273859" stroke-width="1" />
+<line x1="482" y1="560" x2="642" y2="560" stroke="#273859" stroke-width="1" />
+<line x1="482" y1="595" x2="642" y2="595" stroke="#273859" stroke-width="1" />
+<g>
+<rect x="760" y="412" width="235" height="248" rx="5" fill="#182f3f" stroke="#45a4d6" stroke-width="1.7" />
+</g>
+<text x="877" y="446" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="17" fill="#e4f2fb" font-weight="700" text-anchor="middle">OR Plane</text>
+<text x="877" y="468" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#8fd0f2" font-weight="700" text-anchor="middle">26 × 7 (182 bits)</text>
+<rect x="797" y="490" width="160" height="140" rx="4" fill="#132432" stroke="#35759b" stroke-width="1.2" />
+<line x1="829" y1="490" x2="829" y2="630" stroke="#204159" stroke-width="1" />
+<line x1="861" y1="490" x2="861" y2="630" stroke="#204159" stroke-width="1" />
+<line x1="893" y1="490" x2="893" y2="630" stroke="#204159" stroke-width="1" />
+<line x1="925" y1="490" x2="925" y2="630" stroke="#204159" stroke-width="1" />
+<line x1="797" y1="525" x2="957" y2="525" stroke="#204159" stroke-width="1" />
+<line x1="797" y1="560" x2="957" y2="560" stroke="#204159" stroke-width="1" />
+<line x1="797" y1="595" x2="957" y2="595" stroke="#204159" stroke-width="1" />
+<g>
+<rect x="1065" y="462" width="100" height="148" rx="5" fill="#272038" stroke="#9478c9" stroke-width="1.7" />
+<text x="1115.0" y="533.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#eee8fa" font-weight="700" text-anchor="middle">Out Bank</text>
+<text x="1115.0" y="552.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#c6b3eb" font-weight="700" text-anchor="middle">uo[6:0]</text>
+</g>
+<polyline points="142,206 465,206" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#pin-end)" />
+<polyline points="142,255 465,255" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<polyline points="562,283 562,412" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="565.4" y="336" width="101.19999999999999" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="616" y="348" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">416 cfg bits</text>
+<polyline points="877,283 877,412" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="880.4" y="336" width="101.19999999999999" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="931" y="348" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">182 cfg bits</text>
+<polyline points="142,536 205,536" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#pin-end)" />
+<polyline points="370,536 445,536" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g><line x1="401" y1="542" x2="411" y2="530" stroke="#60a5fa" stroke-width="1.8" /><text x="406" y="526" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">16</text></g>
+<polyline points="680,536 760,536" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g><line x1="713" y1="542" x2="723" y2="530" stroke="#60a5fa" stroke-width="1.8" /><text x="718" y="526" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">26</text></g>
+<polyline points="995,536 1065,536" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g><line x1="1023" y1="542" x2="1033" y2="530" stroke="#60a5fa" stroke-width="1.8" /><text x="1028" y="526" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">7</text></g>
+<polyline points="1165,536 1225,536" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#pin-end)" />
+</g>
+</svg>

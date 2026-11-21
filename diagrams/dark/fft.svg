@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="1440" height="900" fill="#1a202c" />
+<defs>
+<marker id="bus-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#60a5fa" /></marker>
+<marker id="bus-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#60a5fa" /></marker>
+<marker id="ctrl-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#eab364" /></marker>
+<marker id="ctrl-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#eab364" /></marker>
+<marker id="irq-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#4cc7a2" /></marker>
+<marker id="irq-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#4cc7a2" /></marker>
+<marker id="pin-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#94a3b8" /></marker>
+<marker id="pin-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#94a3b8" /></marker>
+<marker id="off-end" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,1 L7.5,4 L0,7 L1.5,4 Z" fill="#64748b" /></marker>
+<marker id="off-start" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M7.5,1 L0,4 L7.5,7 L6,4 Z" fill="#64748b" /></marker>
+</defs>
+<text x="40" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="25" fill="#e6eaf2" font-weight="700" text-anchor="start">64-Point FFT</text>
+<text x="40" y="60" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="#a1adbf" font-weight="500" text-anchor="start">tt_um_fft_adityaamehra · 6-Stage Radix-2 SDF DIF · 8-bit Complex</text>
+<rect x="904.0" y="26" width="15" height="15" rx="3" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.6" />
+<text x="925.0" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Core / Compute</text>
+<rect x="1054.4" y="26" width="15" height="15" rx="3" fill="#182f3f" stroke="#45a4d6" stroke-width="1.6" />
+<text x="1075.4" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Bus / Mux</text>
+<rect x="1166.8000000000002" y="26" width="15" height="15" rx="3" fill="#172e28" stroke="#3ea88b" stroke-width="1.6" />
+<text x="1187.8000000000002" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Memory</text>
+<rect x="1256.4" y="26" width="15" height="15" rx="3" fill="#2d2417" stroke="#cfa04e" stroke-width="1.6" />
+<text x="1277.4" y="38" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="12" fill="#a1adbf" font-weight="700" text-anchor="start">Control / Config</text>
+<g transform="translate(15.88, 66.11) scale(1.0059)">
+<rect x="165" y="95" width="1070" height="635" rx="10" fill="#131823" stroke="#4a5975" stroke-width="2" />
+<g><rect x="185" y="83" width="185" height="22" rx="4" fill="#252a48" stroke="#4f5c8f" stroke-width="1.2" /><text x="277.5" y="98.2" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#f1f5f9" font-weight="700" text-anchor="middle">tt_um_fft_adityaamehra</text></g>
+<g><rect x="20" y="210" width="122" height="34" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="81.0" y="231.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">ena / clk / rst</text></g>
+<g><rect x="20" y="520" width="122" height="34" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="81.0" y="541.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">ui_in[7:0]</text></g>
+<g><rect x="1254" y="498" width="126" height="42" rx="4" fill="#21293a" stroke="#64748b" stroke-width="1.6" /><text x="1317.0" y="523.5" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#e6eaf2" font-weight="700" text-anchor="middle">uo / uio [7:0]</text></g>
+<g>
+<rect x="195" y="175" width="200" height="108" rx="5" fill="#2d2417" stroke="#cfa04e" stroke-width="1.7" />
+<text x="295.0" y="226.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#faecd2" font-weight="700" text-anchor="middle">Frame Controller</text>
+<text x="295.0" y="245.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#ebca8a" font-weight="700" text-anchor="middle">64 ingest + 64 flush</text>
+</g>
+<g>
+<rect x="195" y="472" width="200" height="130" rx="5" fill="#182f3f" stroke="#45a4d6" stroke-width="1.7" />
+<text x="295.0" y="534.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e4f2fb" font-weight="700" text-anchor="middle">Complex Input</text>
+<text x="295.0" y="553.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8fd0f2" font-weight="700" text-anchor="middle">8-bit signed · ui+j0</text>
+</g>
+<rect x="445" y="165" width="585" height="515" rx="8" fill="#1b2232" stroke="#44536e" stroke-width="1.5" />
+<g><rect x="459" y="154" width="148" height="22" rx="4" fill="#2c4c87" /><text x="533.0" y="169.2" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#f1f5f9" font-weight="700" text-anchor="middle">top (64-pt SDF FFT)</text></g>
+<g>
+<rect x="555" y="198" width="365" height="96" rx="5" fill="#2d2417" stroke="#cfa04e" stroke-width="1.7" />
+<text x="737.5" y="243.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#faecd2" font-weight="700" text-anchor="middle">Master Counter &amp; Control</text>
+<text x="737.5" y="262.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#ebca8a" font-weight="700" text-anchor="middle">master_cnt[5:0] · sel[k] · twiddle_addr</text>
+</g>
+<g>
+<rect x="468" y="330" width="538" height="42" rx="5" fill="#182f3f" stroke="#45a4d6" stroke-width="1.7" />
+<text x="737.0" y="348.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="13" fill="#e4f2fb" font-weight="700" text-anchor="middle">Stage Control Fan-out</text>
+<text x="737.0" y="367.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="10" fill="#8fd0f2" font-weight="700" text-anchor="middle">sel[k] + twiddle_addr[k]</text>
+</g>
+<polyline points="737,294 737,330" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<g>
+<rect x="468" y="430" width="78" height="205" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+</g>
+<text x="507" y="468" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e6eaf2" font-weight="700" text-anchor="middle">Stage 0</text>
+<text x="507" y="492" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#a5c0f7" font-weight="700" text-anchor="middle">D = 32</text>
+<text x="507" y="534" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Radix-2 BF</text>
+<text x="507" y="554" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Twiddle ROM</text>
+<text x="507" y="574" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">÷2 scaling</text>
+<polyline points="507,372 507,430" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<polyline points="546,532 560,532" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g>
+<rect x="560" y="430" width="78" height="205" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+</g>
+<text x="599" y="468" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e6eaf2" font-weight="700" text-anchor="middle">Stage 1</text>
+<text x="599" y="492" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#a5c0f7" font-weight="700" text-anchor="middle">D = 16</text>
+<text x="599" y="534" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Radix-2 BF</text>
+<text x="599" y="554" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Twiddle ROM</text>
+<text x="599" y="574" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">÷2 scaling</text>
+<polyline points="599,372 599,430" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<polyline points="638,532 652,532" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g>
+<rect x="652" y="430" width="78" height="205" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+</g>
+<text x="691" y="468" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e6eaf2" font-weight="700" text-anchor="middle">Stage 2</text>
+<text x="691" y="492" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#a5c0f7" font-weight="700" text-anchor="middle">D = 8</text>
+<text x="691" y="534" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Radix-2 BF</text>
+<text x="691" y="554" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Twiddle ROM</text>
+<text x="691" y="574" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">÷2 scaling</text>
+<polyline points="691,372 691,430" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<polyline points="730,532 744,532" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g>
+<rect x="744" y="430" width="78" height="205" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+</g>
+<text x="783" y="468" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e6eaf2" font-weight="700" text-anchor="middle">Stage 3</text>
+<text x="783" y="492" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#a5c0f7" font-weight="700" text-anchor="middle">D = 4</text>
+<text x="783" y="534" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Radix-2 BF</text>
+<text x="783" y="554" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Twiddle ROM</text>
+<text x="783" y="574" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">÷2 scaling</text>
+<polyline points="783,372 783,430" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<polyline points="822,532 836,532" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g>
+<rect x="836" y="430" width="78" height="205" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+</g>
+<text x="875" y="468" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e6eaf2" font-weight="700" text-anchor="middle">Stage 4</text>
+<text x="875" y="492" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#a5c0f7" font-weight="700" text-anchor="middle">D = 2</text>
+<text x="875" y="534" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Radix-2 BF</text>
+<text x="875" y="554" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Twiddle ROM</text>
+<text x="875" y="574" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">÷2 scaling</text>
+<polyline points="875,372 875,430" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<polyline points="914,532 928,532" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g>
+<rect x="928" y="430" width="78" height="205" rx="5" fill="#1e2b45" stroke="#5b86d6" stroke-width="1.7" />
+</g>
+<text x="967" y="468" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#e6eaf2" font-weight="700" text-anchor="middle">Stage 5</text>
+<text x="967" y="492" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#a5c0f7" font-weight="700" text-anchor="middle">D = 1</text>
+<text x="967" y="534" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Radix-2 BF</text>
+<text x="967" y="554" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">Twiddle ROM</text>
+<text x="967" y="574" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="11" fill="#cbd5e1" font-weight="500" text-anchor="middle">÷2 scaling</text>
+<polyline points="967,372 967,430" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<g>
+<rect x="1060" y="198" width="145" height="96" rx="5" fill="#2d2417" stroke="#cfa04e" stroke-width="1.7" />
+<text x="1132.5" y="243.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="14" fill="#faecd2" font-weight="700" text-anchor="middle">Sync Trigger</text>
+<text x="1132.5" y="262.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="10" fill="#ebca8a" font-weight="700" text-anchor="middle">valid &amp; cnt==63</text>
+</g>
+<g>
+<rect x="1060" y="415" width="145" height="220" rx="5" fill="#172e28" stroke="#3ea88b" stroke-width="1.7" />
+<text x="1132.5" y="522.0" font-family="&quot;Helvetica Neue&quot;, Helvetica, &quot;Liberation Sans&quot;, Arial, sans-serif" font-size="15" fill="#e3f7f1" font-weight="700" text-anchor="middle">Slip Buffer</text>
+<text x="1132.5" y="541.0" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#8ce0c6" font-weight="700" text-anchor="middle">0xAA sync · Re/Im</text>
+</g>
+<polyline points="142,227 195,227" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#pin-end)" />
+<polyline points="142,537 195,537" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#pin-end)" />
+<polyline points="295,283 295,472" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="236.8" y="368" width="116.39999999999999" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="295" y="380" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">ingest / flush</text>
+<polyline points="395,246 555,246" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="451.0" y="222" width="48.0" height="16" rx="3" fill="#1b2232" fill-opacity="0.94" />
+<text x="475" y="234" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">start</text>
+<polyline points="295,175 295,134 1132,134 1132,198" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="658.0" y="114" width="124.0" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="720" y="126" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">frame_cnt == 63</text>
+<polyline points="920,246 1060,246" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="950.8" y="222" width="78.39999999999999" height="16" rx="3" fill="#1b2232" fill-opacity="0.94" />
+<text x="990" y="234" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">top_valid</text>
+<polyline points="1132,294 1132,415" fill="none" stroke="#eab364" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ctrl-end)" />
+<rect x="1137.8" y="342" width="40.4" height="16" rx="3" fill="#131823" fill-opacity="0.94" />
+<text x="1158" y="354" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="#eab364" font-weight="700" text-anchor="middle">sync</text>
+<polyline points="395,532 468,532" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<g><line x1="421" y1="538" x2="431" y2="526" stroke="#60a5fa" stroke-width="1.8" /><text x="426" y="522" font-family="&quot;Menlo&quot;, &quot;Consolas&quot;, &quot;Liberation Mono&quot;, monospace" font-size="11" fill="#60a5fa" font-weight="700" text-anchor="middle">8</text></g>
+<polyline points="1006,532 1060,532" fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#bus-end)" />
+<polyline points="1205,519 1254,519" fill="none" stroke="#94a3b8" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#pin-end)" />
+</g>
+</svg>
